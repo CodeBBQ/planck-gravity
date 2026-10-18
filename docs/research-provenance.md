@@ -45,30 +45,18 @@ that a reported device capability is demonstrated. Decisive quantitative
 claims require a **legally accessible full text**, precise source location,
 units, conditions, verification history and downstream references.
 
-## Two distinct traceability chains
+## Scientific traceability
 
 ```text
-Scientific evidence:
-  open accessible primary source
-    -> verified CLM-* claim
-    -> reproducible CAL-* calculation
-    -> approach / possibly CAN-* candidate
-    -> independent numerical check + REV-* adversarial review
-    -> synthesis
-
-Process history:
-  CMP-* campaign
-    -> MOD-* moderator decision
-    -> WRK-* scoped worker
-    -> branch, committed artifacts and handoff
-    -> next moderator decision / verification / stop
+  accessible primary source
+    -> sourced claim
+    -> reproducible calculation
+    -> experimental approach or candidate
+    -> independent check and critical review
+    -> evidence-bounded synthesis
 ```
 
-A process record can link to scientific artifacts; it never replaces a
-source, an equation, a numerical reconstruction or independent review.
-Unresolved conflicting claims, rejected approaches and negative results are
-preserved rather than overwritten. This makes scrutiny and later correction
-possible without inheriting old chat context.
+Scientific evidence must remain distinct from any process or coordination metadata. Disagreement, negative findings and unresolved uncertainty should remain traceable without relying on conversation history.
 
 ## Repository map
 
@@ -81,9 +69,9 @@ possible without inheriting old chat context.
 | `candidates/` | Developed surviving `CAN-*` proposals |
 | `reviews/` | Adversarial reviews, `REV-*` disputes and verification concerns |
 | `synthesis/` | Cross-approach comparison after relevant gates |
-| `agents/` | Six specialist agent-role specifications and fresh-chat bootstrap |
-| `orchestration/` | Campaigns, workers, moderator decisions, prompts and audit fixtures |
-| `prompts/` | Reusable non-authoritative prompting material |
+| `agents/` | Six scientific responsibility descriptions |
+| `orchestration/` | Non-operational coordination architecture overview |
+| `prompts/` | Link to published research-role descriptions |
 | `papers/` | Local, Git-ignored full-text cache; not a Git history of PDFs |
 
 Canonical branches distinguish exploratory work (`research/*`,
@@ -92,10 +80,4 @@ Canonical branches distinguish exploratory work (`research/*`,
 
 ## Limits and readiness
 
-The architecture has been bootstrapped, not scientifically validated by
-executing a substantive research campaign. The required fresh-system,
-multi-session acceptance remains pending: see
-[RESEARCH_READINESS.md](../RESEARCH_READINESS.md) and
-[the issue-6 protocol](../orchestration/ISSUE_6_ACCEPTANCE_PROTOCOL.md).
-Until a final GO is recorded, do not start substantive Planck-scale
-research under this workflow.
+The architecture has been documented but **not** accepted as a live, independently validated research system. See [RESEARCH_READINESS.md](../RESEARCH_READINESS.md): **NO-GO**. No substantive Planck-scale research outcome is claimed.

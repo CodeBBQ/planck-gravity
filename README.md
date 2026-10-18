@@ -33,7 +33,7 @@ These roles document a separation of concerns, **not** actual completed autonomo
 | [reviews/](reviews/) and [synthesis/](synthesis/) | Critical assessment and synthesis structure |
 | [PROJECT_RULES.md](PROJECT_RULES.md) and [LITERATURE_RULES.md](LITERATURE_RULES.md) | Scientific standards and evidence limits |
 
-The repository demonstrates **research-system design, scientific provenance, role differentiation and quantitative reasoning** using Markdown, BibTeX, YAML, Python and Git. The public presentation does not include executable private agent prompts or the multi-session acceptance protocol.
+The repository demonstrates **research-system design, scientific provenance, role differentiation and quantitative reasoning** using Markdown, BibTeX, YAML, Python and Git. The scientific roles and coordination overview are descriptive; they do not constitute an executable agent workflow or a completed acceptance.
 
 For orientation read [architecture](REPOSITORY_ARCHITECTURE.md), [scientific provenance](docs/research-provenance.md) and the [public visitor guide](docs/getting-started.md).
 

@@ -22,7 +22,7 @@ Input claims: CLM-example-001, CLM-example-002
 Outputs used by: approaches/example.md
 ```
 
-A fresh numerical verifier must be able to recover the equations, units, constants, input claim IDs, and downstream output without chat history.
+A separate reviewer must be able to recover the equations, units, constants, input claim IDs and downstream results from written evidence.
 
 ## Running shared calculations
 
@@ -38,7 +38,7 @@ python -m pytest calculations/test_calculations.py -v
 2. Include units and perform dimensional checks.
 3. Important numerical results must be reproducible here, not only in prose.
 4. Trace source-dependent inputs to `CLM-*` IDs.
-5. Independently verify decisive calculations according to `agents/numerical_verifier.md` and `COLLABORATION_WORKFLOW.md`.
+5. Check decisive calculations independently against their recorded equations and inputs.
 6. Keep calculations simple and readable; do not build unnecessary infrastructure.
 
 ## Adding a research calculation
@@ -48,4 +48,4 @@ python -m pytest calculations/test_calculations.py -v
 3. Implement the calculation transparently.
 4. Add tests/checks appropriate to its importance.
 5. Reference the `CAL-*` ID from the approach/candidate using the result.
-6. Send decisive results to an independent numerical-verifier chat.
+6. Request an independent numerical check of decisive results.

@@ -140,19 +140,12 @@ synthesis (in synthesis/)
 | **Adversarial reviewer** | Attempts to falsify or weaken claims in reviews/ |
 | **Synthesis researcher** | Integrates sufficiently verified/reviewed results in synthesis/ |
 
-`COLLABORATION_WORKFLOW.md` is authoritative for role boundaries, handoffs, write scopes, independence, branch ownership, rejection paths, and merge expectations.
+See `COLLABORATION_WORKFLOW.md` for the public overview of scientific responsibilities and independent review.
 
 A single chat may perform multiple roles for low-risk bootstrap/editorial work. For decisive scientific results, the original researcher must not also serve as the independent numerical verifier or final adversarial reviewer of that same result.
 
 ---
 
-## 10. Session startup checklist
+## 10. Research readiness
 
-Use the role-specific startup path rather than relying on chat history:
-
-- **Moderator / coordinator:** follow the top-level `README.md` moderator path, including the orchestration documents and registry.
-- **Worker:** follow the top-level `README.md` worker path, the assigned durable `WRK-*` record/prompt, `agents/README.md`, and the assigned `agents/<role>.md` file.
-
-All sessions must still obey this file, `LITERATURE_RULES.md`, `REPOSITORY_ARCHITECTURE.md`, `COLLABORATION_WORKFLOW.md`, and the relevant provenance/orchestration rules identified by the canonical startup path.
-
-Do not begin substantive Planck-gravity research until the repository readiness gate in `README.md` permits it.
+These are scientific quality standards, not an executable session-startup procedure. **No substantive research-system readiness has been demonstrated.** See `RESEARCH_READINESS.md`; status remains **NO-GO**.
